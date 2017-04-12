@@ -1,5 +1,5 @@
 # Crawler
-##About##
-Web Scraping using python
-####Done by:####
+## About
+Web Scraping using *Python
+#### Done by:
 >>Jack Kitili
