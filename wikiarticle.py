@@ -23,6 +23,8 @@ else:
     while len(Links) > 0:
         newWikiLink = Links[random.randint(0, len(Links)-1)].attrs['href']
         print(newWikiLink)
+        file = open("wikilinks.txt", "a")
+        file.writelines(newWikiLink + "\n")
         Links = getLinks(newWikiLink)
 
 
