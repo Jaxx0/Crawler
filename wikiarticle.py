@@ -20,6 +20,10 @@ Links = getLinks("/wiki/Kenya")
 if Links == None:
     print("Could not get links")
 else:
+    for link in Links:
+        print(link.attrs['href'])
+        File = open("kenyan_links.txt", "a")
+        File.writelines(link.attrs['href'] + "\n")
     while len(Links) > 0:
         newWikiLink = Links[random.randint(0, len(Links)-1)].attrs['href']
         print(newWikiLink)
