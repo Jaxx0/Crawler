@@ -1,4 +1,4 @@
-# Web Crawling with python
+# Crawler
 ## About
 Web Scraping using *Python*
 #### Done by:
